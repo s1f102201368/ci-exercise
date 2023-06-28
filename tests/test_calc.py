@@ -1,5 +1,5 @@
 import unittest
-from project.calc import fact
+from project.calc import fact ,gcd
 
 class TestTarget(unittest.TestCase):
     def test_fact_positive(self):
@@ -12,3 +12,7 @@ class TestTarget(unittest.TestCase):
     def test_fact_negative(self):
         with self.assertRaises(ValueError):
             fact(-1)
+
+    
+
+        
